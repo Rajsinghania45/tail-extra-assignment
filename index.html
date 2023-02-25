@@ -7,7 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .value{
+            display: none;
+        }
+        .value:target{
+            display: block;
+
+        }
+    </style>
     <script src="https://cdn.tailwindcss.com"></script>
+    
 </head>
 
 <body>
@@ -32,7 +42,7 @@
 
         </nav>
     </header>
-    <section>
+    <section class="text-center ">
         <div class="grid sm:grid-cols-1 md:grid-cols-3  bg-gray-300 m-3 p-4 ">
             <div
                 class="col-4 sm:col-span-1 md:col-span-1 border border-red-900  rounded-2xl m-3 p-3 shadow-black bg-slate-50">
@@ -60,10 +70,10 @@
                         <button
                             class="inline-block w-full rounded m-auto  px-6 py-2.5  transition duration-150 ease-in-out hover:shadow-inner "
                             type="button" style="
-                            background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);">
-                            Log In
+                            background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);"  target:txt>
+                            <a href="#txt">Log In</a>  
                         </button>
-                        <a href="#!">Forgot password?</a>
+                        <a href="#" >Forgot password?</a>
                     </div>
                     <div class="flex items-center justify-between pb-6 ">
                         <p class="mb-0 mr-2"> Don't have a account ? </p>
@@ -72,13 +82,15 @@
                     </div>
                 </form>
             </div>
-            <div class="col-8 sm:col-span-1 md:col-span-2 border border-red-500 rounded-2xl m-3 p-3">
-                <div class="mt-8 grid  md:grid-cols-3 gap-10 lg:grid-cols-4 ">
+
+            <!-- card section   -->
+            <div class=" value col-8 sm:col-span-1 md:col-span-2 border border-red-500 rounded-2xl m-3 p-3"  id="txt">
+                <div class="mt-8 grid  md:grid-cols-3 gap-10 lg:grid-cols-4 " id="card-sec">
                     <div class="flex justify-center">
                         <div class="flex flex-col max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
                             <a href="#!">
                                 <img class="rounded-t-lg"
-                                    src="https://ae01.alicdn.com/kf/HTB1.t35mC_I8KJjy0Foq6yFnVXaB/Brand-2018-Fashion-Male-Shirt-Long-Sleeves-Tops-Double-collar-business-shirt-Mens-Dress-Shirts-Slim.jpg"
+                                    src="https://th.bing.com/th/id/OIP.ktspOHN0DVut-D8eWtaOYAHaJ4?pid=ImgDet&rs=1"
                                     alt="" />
                             </a>
                             <div class="p-2">
@@ -101,7 +113,7 @@
                         <div class="flex flex-col max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
                             <a href="#!">
                                 <img class="rounded-t-lg"
-                                    src="https://ae01.alicdn.com/kf/HTB1.t35mC_I8KJjy0Foq6yFnVXaB/Brand-2018-Fashion-Male-Shirt-Long-Sleeves-Tops-Double-collar-business-shirt-Mens-Dress-Shirts-Slim.jpg"
+                                    src="https://th.bing.com/th/id/OIP.ktspOHN0DVut-D8eWtaOYAHaJ4?pid=ImgDet&rs=1"
                                     alt="" />
                             </a>
                             <div class="p-2">
@@ -125,7 +137,7 @@
                         <div class="flex flex-col max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
                             <a href="#!">
                                 <img class="rounded-t-lg"
-                                    src="https://ae01.alicdn.com/kf/HTB1.t35mC_I8KJjy0Foq6yFnVXaB/Brand-2018-Fashion-Male-Shirt-Long-Sleeves-Tops-Double-collar-business-shirt-Mens-Dress-Shirts-Slim.jpg"
+                                    src="https://th.bing.com/th/id/OIP.ktspOHN0DVut-D8eWtaOYAHaJ4?pid=ImgDet&rs=1"
                                     alt="" />
                             </a>
                             <div class="p-2">
@@ -148,7 +160,7 @@
                         <div class="flex flex-col max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
                             <a href="#!">
                                 <img class="rounded-t-lg"
-                                    src="https://ae01.alicdn.com/kf/HTB1.t35mC_I8KJjy0Foq6yFnVXaB/Brand-2018-Fashion-Male-Shirt-Long-Sleeves-Tops-Double-collar-business-shirt-Mens-Dress-Shirts-Slim.jpg"
+                                    src="https://th.bing.com/th/id/OIP.ktspOHN0DVut-D8eWtaOYAHaJ4?pid=ImgDet&rs=1"
                                     alt="" />
                             </a>
                             <div class="p-2">
@@ -171,7 +183,7 @@
                         <div class="flex flex-col max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
                             <a href="#!">
                                 <img class="rounded-t-lg"
-                                    src="https://ae01.alicdn.com/kf/HTB1.t35mC_I8KJjy0Foq6yFnVXaB/Brand-2018-Fashion-Male-Shirt-Long-Sleeves-Tops-Double-collar-business-shirt-Mens-Dress-Shirts-Slim.jpg"
+                                    src="https://th.bing.com/th/id/OIP.ktspOHN0DVut-D8eWtaOYAHaJ4?pid=ImgDet&rs=1"
                                     alt="" />
                             </a>
                             <div class="p-2">
@@ -194,7 +206,7 @@
                         <div class="flex flex-col max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
                             <a href="#!">
                                 <img class="rounded-t-lg"
-                                    src="https://ae01.alicdn.com/kf/HTB1.t35mC_I8KJjy0Foq6yFnVXaB/Brand-2018-Fashion-Male-Shirt-Long-Sleeves-Tops-Double-collar-business-shirt-Mens-Dress-Shirts-Slim.jpg"
+                                    src="https://th.bing.com/th/id/OIP.ktspOHN0DVut-D8eWtaOYAHaJ4?pid=ImgDet&rs=1"
                                     alt="" />
                             </a>
                             <div class="p-2">
@@ -217,7 +229,7 @@
                         <div class="flex flex-col max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
                             <a href="#!">
                                 <img class="rounded-t-lg"
-                                    src="https://ae01.alicdn.com/kf/HTB1.t35mC_I8KJjy0Foq6yFnVXaB/Brand-2018-Fashion-Male-Shirt-Long-Sleeves-Tops-Double-collar-business-shirt-Mens-Dress-Shirts-Slim.jpg"
+                                    src="https://th.bing.com/th/id/OIP.ktspOHN0DVut-D8eWtaOYAHaJ4?pid=ImgDet&rs=1"
                                     alt="" />
                             </a>
                             <div class="p-2">
@@ -240,7 +252,7 @@
                         <div class="flex flex-col max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
                             <a href="#!">
                                 <img class="rounded-t-lg"
-                                    src="https://ae01.alicdn.com/kf/HTB1.t35mC_I8KJjy0Foq6yFnVXaB/Brand-2018-Fashion-Male-Shirt-Long-Sleeves-Tops-Double-collar-business-shirt-Mens-Dress-Shirts-Slim.jpg"
+                                    src="https://th.bing.com/th/id/OIP.ktspOHN0DVut-D8eWtaOYAHaJ4?pid=ImgDet&rs=1"
                                     alt="" />
                             </a>
                             <div class="p-2">
@@ -258,12 +270,6 @@
                             </div>
                         </div>
                     </div>
-
-
-
-
-
-
 
                 </div>
 
